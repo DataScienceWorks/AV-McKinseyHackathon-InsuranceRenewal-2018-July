@@ -1,5 +1,7 @@
 ## McKinsey Hackathon - Insurance Renewal
 
+**[Note: The problem is solved only partially. That is part A is solved. Didn't know how to proceed with Part B of the problem statement.]**
+
 
 
 ## About McKinsey Analytics Online Hackathon
@@ -10,7 +12,7 @@ During our online Hackathon, you will get a glimpse at the sort of problems and 
 
 ## Problem Statement
 
-Your client is an Insurance company and they need your help in building a model to predict the propensity to pay renewal premium and build an incentive plan for its agents to maximise the net revenue (i.e. renewals - incentives given to collect the renewals) collected from the policies post their issuance.
+Your client is an Insurance company and they need your help in building a model to **predict the propensity to pay renewal premium** and **build an incentive plan for its agents to maximise the net revenue** (i.e. renewals - incentives given to collect the renewals) collected from the policies post their issuance.
 
  You have information about past transactions from the policy holders along with their demographics. The client has provided aggregated historical transactional data like number of premiums delayed by 3/ 6/ 12 months across all the products, number of premiums paid, customer sourcing channel and customer demographics like age, monthly income and area type.
 
@@ -49,6 +51,8 @@ The net revenue across all policies will be calculated in the following manner:
 - ‘Premium on policy’ is the premium paid by the policy holder for the policy in consideration
 
 - ‘Incentive on policy’ is the incentive given to the agent for increasing the chance of renewal (estimated by the participant) for each policy
+
+> ProTip: p_benchmark is decided by the company. You can consider it as the best solution for the problem. More accurate your model, closer you are to the p_benchmark.
 
 
 
